@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>MyWebPage</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: ivory;
+        }
+        h1{
+            color: rgb(40, 227, 40);
+            text-align: center;
+            text-shadow: 2px 2px 5px rgb(9, 85, 9);
+            padding-top: 20px;
+        }
+
+        #top-menubar{
+            margin: 10px auto;
+            padding: 0;
+            list-style: none;
+            width: 606px;
+            height: 70px;
+            background-color: yellow;
+            border-radius: 10px;
+        }
+        #top-menubar li a{
+            color: black;
+            text-decoration: none;
+            text-align: center;
+            display: block;
+            padding: 10px 30px;
+            margin: 0px auto;
+            line-height:50px;
+        }
+        #top-menubar li{
+            float: left;
+            border-right: 1px dotted rgb(9, 255, 0);
+            width: 100px;
+            height: 70px;
+
+        }
+        #top-menubar li:last-child{
+            border: none;
+        }
+        #container .sidebar{
+            float: left;
+            list-style: none;
+            width: 150px;
+            margin-left: 20px;
+            background-color: yellow;
+            text-align: center;
+            border-radius: 10px;
+        }
+        #container .sidebar li a{
+            text-decoration: none;
+            color: black;
+            display: block;
+            padding: 15px 0px;
+        }
+        #container .sidebar li{
+            border-bottom: 1px dotted rgb(9, 255, 0);
+        }
+        #container .sidebar li:last-child{
+            border: none;
+        }
+        #contents{
+            float: left;
+            padding:50px
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>안동주의 채널에 오신걸 환영합니다.</h1>
+    <div id="container">
+        <header id="header">
+            <ul id="top-menubar">
+                <li><a href="#">12345</a></li>
+                <li><a href="#">12345</a></li>
+                <li><a href="#">12345</a></li>
+                <li><a href="#">12345</a></li>
+                <li><a href="#">12345</a></li>
+                <li><a href="#">12345</a></li>
+            </ul>
+        </header>
+        <aside id="left-sidebar">
+            <ul class="sidebar">
+                <li><a href="#">김채원</a></li>
+                <li><a href="#">하니</a></li>
+                <li><a href="#">윈터</a></li>
+                <li><a href="#">카리나</a></li>
+                <li><a href="#">민지</a></li>
+                <li><a href="#">해린</a></li>
+                <li><a href="#">은채</a></li>
+                <li><a href="#">사쿠라</a></li>
+            </ul>
+        </aside>
+        <section id="contents">
+            <p>본문</p>
+        </section>
+    </div>
+</body>
+</html>
